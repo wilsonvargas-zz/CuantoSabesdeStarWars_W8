@@ -172,10 +172,7 @@ namespace CuantoSabesDeStarWars
                 Intento1.Visibility = Visibility.Collapsed;
                 Intento2.Visibility = Visibility.Collapsed;
                 Intento3.Visibility = Visibility.Collapsed;
-                DateTime dueTime = DateTime.Now.AddSeconds(1);
-                Random rand = new Random();
-                int idNumber = rand.Next(0, 10000000);
-                ScheduleTileWithStringManipulation(contador.ToString(), dueTime, idNumber);
+                TileWithStringManipulation(contador.ToString(), DateTime.Now);
                 intentos = 3;
                 Contador.Text = contador.ToString();
                 CargarDatos();
@@ -279,7 +276,7 @@ namespace CuantoSabesDeStarWars
         #endregion
 
         #region [Notifications]
-        void ScheduleTileWithStringManipulation(String puntaje, DateTime dueTime, int idNumber)
+        void TileWithStringManipulation(String puntaje, DateTime dueTime)
         {
             try
             {
@@ -303,9 +300,8 @@ namespace CuantoSabesDeStarWars
 
                 Windows.Data.Xml.Dom.XmlDocument tileDOM = new Windows.Data.Xml.Dom.XmlDocument();
                 tileDOM.LoadXml(tileXmlString);
-                ScheduledTileNotification futureTile = new ScheduledTileNotification(tileDOM, dueTime);
-                futureTile.Id = "Tile" + idNumber;
-                TileUpdateManager.CreateTileUpdaterForApplication().AddToSchedule(futureTile);
+                TileNotification futureTile = new TileNotification(tileDOM);
+                TileUpdateManager.CreateTileUpdaterForApplication().Update(futureTile);
             }
             catch (Exception ex)
             {
