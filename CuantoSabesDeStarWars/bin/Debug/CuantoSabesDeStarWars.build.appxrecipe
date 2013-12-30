@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WILSON</Machine>
+    <WindowsUser>Wilson</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\bin\Debug\CuantoSabesDeStarWars.exe">
+      <PackagePath>CuantoSabesDeStarWars.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\bin\Debug\CuantoSabesDeStarWars.pdb">
+      <PackagePath>CuantoSabesDeStarWars.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Proyectos\YouTube Video Taker\packages\Callisto.1.2.6\lib\winrt45\Callisto.dll">
+      <PackagePath>Callisto.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\Assets\Boton.png">
+      <PackagePath>Assets\Boton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\Assets\intentos.png">
+      <PackagePath>Assets\intentos.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\Assets\LogoCabecera.png">
+      <PackagePath>Assets\LogoCabecera.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\Assets\Fondo.jpg">
+      <PackagePath>Assets\Fondo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\DiccionarioPreguntas.xml">
+      <PackagePath>DiccionarioPreguntas.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\bin\Debug\PrivatePolicyUserControl.xaml">
+      <PackagePath>PrivatePolicyUserControl.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Proyectos\YouTube Video Taker\packages\Callisto.1.2.6\lib\winrt45\Callisto\themes\Generic.xaml">
+      <PackagePath>Callisto\themes\Generic.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Repositorios\CuantoSabesdeStarWars_W8\CuantoSabesDeStarWars\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
